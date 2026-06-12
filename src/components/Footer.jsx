@@ -58,11 +58,11 @@ export default function Footer() {
               </svg>
             </div>
             <div>
-              <div className="font-display font-bold text-white text-base leading-tight tracking-tight">MAZETRONIX</div>
-              <div className="text-xs text-slate-400 leading-none tracking-widest uppercase">Solutions</div>
+              <div className="font-display font-bold text-white text-2xl leading-tight tracking-tight">MAZETRONIX</div>
+              <div className="text-lg text-slate-400 leading-none tracking-widest uppercase">Solutions</div>
             </div>
           </div>
-          <p className="text-sm text-slate-400 leading-relaxed mb-5">
+          <p className="text-lg text-slate-400 leading-relaxed mb-5">
             Delhi's trusted partner for security, networking, and smart building solutions since day one.
           </p>
           {/* Social icons */}
@@ -80,7 +80,7 @@ export default function Footer() {
               },
               {
                 label: "Email",
-                href: "mailto:conncet@mazetronix.com",
+                href: "mailto:connect@mazetronix.com",
                 icon: (
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <rect x="2" y="4" width="20" height="16" rx="2"/>
@@ -115,13 +115,13 @@ export default function Footer() {
 
         {/* Quick Links */}
         <div>
-          <h4 className="font-display text-white font-semibold text-sm uppercase tracking-widest mb-5">
+          <h4 className="font-display text-white font-semibold text-lg uppercase tracking-widest mb-5">
             Quick Links
           </h4>
           <ul className="flex flex-col gap-3">
             {quickLinks.map(({ label, href }) => (
               <li key={label}>
-                <a href={href} className="footer-link text-sm text-slate-400 flex items-center gap-2">
+                <a href={href} className="footer-link text-base text-slate-400 flex items-center gap-2">
                   <span className="text-blue-500 text-xs">›</span> {label}
                 </a>
               </li>
@@ -131,13 +131,13 @@ export default function Footer() {
 
         {/* Services */}
         <div>
-          <h4 className="font-display text-white font-semibold text-sm uppercase tracking-widest mb-5">
+          <h4 className="font-display text-white font-semibold text-lg uppercase tracking-widest mb-5">
             Our Services
           </h4>
           <ul className="flex flex-col gap-3">
             {services.map((s) => (
               <li key={s}>
-                <a href="#" className="footer-link text-sm text-slate-400 flex items-center gap-2">
+                <a href="#" className="footer-link text-base text-slate-400 flex items-center gap-2">
                   <span className="text-blue-500 text-xs">›</span> {s}
                 </a>
               </li>
@@ -147,7 +147,7 @@ export default function Footer() {
 
         {/* Contact info */}
         <div>
-          <h4 className="font-display text-white font-semibold text-sm uppercase tracking-widest mb-5">
+          <h4 className="font-display text-white font-semibold text-lg uppercase tracking-widest mb-5">
             Find Us
           </h4>
           <div className="flex flex-col gap-4">
