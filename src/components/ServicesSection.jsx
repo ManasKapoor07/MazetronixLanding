@@ -187,7 +187,7 @@ export default function ServicesSection() {
             Need something not listed above? We provide customised solutions too.
           </p>
           <a
-            href="mailto:conncet@mazetronix.com"
+            href="mailto:connect@mazetronix.com"
             className="inline-block text-sm font-semibold text-white px-6 py-3 rounded-xl shadow-md"
             style={{ background: "linear-gradient(135deg, #2563EB, #1D4ED8)" }}
           >

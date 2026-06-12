@@ -1,4 +1,6 @@
 import { useState, useEffect, useRef } from "react";
+import logoWhite from "../assets/logo-white.png";
+
 
 const services = [
   { icon: "📹", label: "CCTV" },
@@ -202,12 +204,9 @@ export default function HeroSection() {
 
       {/* Navbar */}
       <nav className="w-full px-6 md:px-16 py-4 flex items-center justify-between bg-white border-b border-slate-100 sticky top-0 z-50 shadow-sm">
-        <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-lg bg-blue-600 flex items-center justify-center shadow">
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <path d="M10 2 L14 4 L14 9 Q14 14 10 17 Q6 14 6 9 L6 4 Z" fill="white" opacity="0.9"/>
-            </svg>
-          </div>
+        <div className="flex items-center gap-2">
+            <img src={logoWhite} alt="Mazetronix Logo" className="w-15 h-15" />
+          
           <div>
             <div className="font-display font-700 text-slate-900 text-2xl leading-tight tracking-tight font-bold">MAZETRONIX</div>
             <div className="text-xs text-slate-400 leading-none tracking-widest uppercase font-medium">Solutions</div>
