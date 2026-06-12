@@ -49,16 +49,16 @@ export const products = [
     description:
       "Secure entry management and authentication."
   },
-  {
-    title: "Elevator Control",
-    description:
-      "Restricted access elevator security."
-  },
-  {
-    title: "Guard Patrol System",
-    description:
-      "Track and monitor security guard activities."
-  },
+//   {
+//     title: "Elevator Control",
+//     description:
+//       "Restricted access elevator security."
+//   },
+//   {
+//     title: "Guard Patrol System",
+//     description:
+//       "Track and monitor security guard activities."
+//   },
   {
     title: "Boom Barrier & Turnstile",
     description:

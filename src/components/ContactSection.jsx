@@ -12,8 +12,8 @@ const services = [
   "Home Automation",
   "Mobile Booster",
   "Door Access Control",
-  "Elevator Control",
-  "Guard Patrol System",
+//   "Elevator Control",
+//   "Guard Patrol System",
   "Boom Barrier / Turnstile",
   "Other / Custom Solution",
 ];
@@ -149,9 +149,9 @@ export default function ContactSection() {
               <h3 className="font-display text-base font-bold text-slate-900 mb-5">Contact Information</h3>
               <div className="flex flex-col gap-4">
                 {[
-                  { icon: "📞", label: "Phone", val: "+91 97112 11539" },
-                  { icon: "📧", label: "Email", val: "swati@mazetronix.com" },
-                  { icon: "🌐", label: "Website", val: "www.mazetronix.com" },
+                  { icon: "📞", label: "Phone", val: "+91 9999935757" },
+                  { icon: "📧", label: "Email", val: "connect@mazetronix.com" },
+                //   { icon: "🌐", label: "Website", val: "www.mazetronix.com" },
                   {
                     icon: "📍",
                     label: "Address",

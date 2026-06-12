@@ -11,8 +11,8 @@ const services = [
   "Home Automation",
   "Mobile Booster",
   "Door Access Control",
-  "Elevator Control",
-  "Guard Patrol System",
+//   "Elevator Control",
+//   "Guard Patrol System",
   "Boom Barrier / Turnstile",
 ];
 
@@ -80,7 +80,7 @@ export default function Footer() {
               },
               {
                 label: "Email",
-                href: "mailto:swati@mazetronix.com",
+                href: "mailto:conncet@mazetronix.com",
                 icon: (
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <rect x="2" y="4" width="20" height="16" rx="2"/>
@@ -156,8 +156,8 @@ export default function Footer() {
                 icon: "📍",
                 text: "A-24/9, Mohan Co-op Industrial Estate, Mathura Road, Saidabad, New Delhi – 110044",
               },
-              { icon: "📞", text: "+91 97112 11539" },
-              { icon: "📧", text: "swati@mazetronix.com" },
+              { icon: "📞", text: "+91 9999935757" },
+              { icon: "📧", text: "connect@mazetronix.com" },
             //   { icon: "🌐", text: "www.mazetronix.com" },
             ].map(({ icon, text }) => (
               <div key={text} className="flex items-start gap-3">

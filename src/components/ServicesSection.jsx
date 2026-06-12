@@ -73,12 +73,12 @@ const services = [
     desc: "Biometric, card, and PIN-based access systems to control who enters your premises.",
     tag: "Access",
   },
-  {
-    img: elevatorControl,
-    title: "Elevator Control",
-    desc: "Floor-wise lift access management integrated with your building's security ecosystem.",
-    tag: "Automation",
-  },
+//   {
+//     img: elevatorControl,
+//     title: "Elevator Control",
+//     desc: "Floor-wise lift access management integrated with your building's security ecosystem.",
+//     tag: "Automation",
+//   },
 //   {
 //     img: guardPatrol,
 //     title: "Guard Patrol System",
@@ -187,7 +187,7 @@ export default function ServicesSection() {
             Need something not listed above? We provide customised solutions too.
           </p>
           <a
-            href="mailto:swati@mazetronix.com"
+            href="mailto:conncet@mazetronix.com"
             className="inline-block text-sm font-semibold text-white px-6 py-3 rounded-xl shadow-md"
             style={{ background: "linear-gradient(135deg, #2563EB, #1D4ED8)" }}
           >
