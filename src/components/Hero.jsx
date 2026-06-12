@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import logoWhite from "../assets/logo-white.png";
+import logoWhite from "../assets/logo.png";
 import cctv from "../assets/cctv.jpg";
 import videoDoorphone from "../assets/video-doorphone.jpg";
 import fireAlarm from "../assets/fire-alarm.jpg";
@@ -336,24 +336,24 @@ export default function HeroSection() {
       `}</style>
 
       {/* ── Navbar ── */}
-     <nav className="w-full px-6  flex flex-col bg-white border-b border-slate-100 sticky top-0 z-50 shadow-sm">
+     <nav className="w-full px-10 py-4 flex flex-col bg-white border-b border-slate-100 sticky top-0 z-50 shadow-sm">
         <div className="flex items-center justify-between py-3 ">
     
     {/* Logo */}
     <div className="flex items-center gap-2">
-      <img src={logoWhite} alt="Mazetronix Logo" className="w-20 h-0 md:w-45 md:h-45 object-contain" />
-      <div className="md:-ml-8">
+      <img src={logoWhite} alt="Mazetronix Logo" className="w-10 h-10 md:w-30 md:h-30 object-contain" />
+      <div>
         <div className="font-bold text-slate-900 text-lg md:text-5xl leading-tight tracking-tight">
           MAZETRONIX
         </div>
-        <div className="text-xs md:text-2xl text-slate-600 uppercase font-medium tracking-widest">
+        <div className="text-xs md:text-2xl text-slate-700 uppercase font-bold tracking-widest">
           Solutions
         </div>
       </div>
     </div>
 
     {/* Desktop nav */}
-    <div className="hidden md:flex items-center gap-8 text-base text-slate-600 font-medium">
+    <div className="hidden md:flex items-center gap-8 text-xl text-slate-700 font-medium">
       <a href="#services" className="hover:text-blue-600 transition-colors">Services</a>
       <a href="#partners" className="hover:text-blue-600 transition-colors">Partners</a>
       <a href="#contact"  className="hover:text-blue-600 transition-colors">Contact</a>
