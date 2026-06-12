@@ -96,7 +96,7 @@ export default function ContactSection() {
 
         {/* Header */}
         <div className="text-center mb-14">
-          <span className="inline-block text-xs font-semibold uppercase tracking-widest text-blue-600 bg-blue-50 px-4 py-1.5 rounded-full mb-4">
+          <span className="inline-block text-xl font-semibold uppercase tracking-widest text-blue-600 bg-blue-50 px-4 py-1.5 rounded-full mb-4">
             Get In Touch
           </span>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-slate-900 mb-4">

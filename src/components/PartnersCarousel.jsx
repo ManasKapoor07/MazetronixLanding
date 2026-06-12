@@ -46,11 +46,11 @@ export default function PartnersCarousel() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-10">
-          <span className="inline-block text-xs font-semibold uppercase tracking-widest text-blue-600 bg-blue-50 px-4 py-1.5 rounded-full mb-3">
+          <span className="inline-block text-xl font-semibold uppercase tracking-widest text-blue-600 bg-blue-50 px-4 py-1.5 rounded-full mb-3">
             Our Partners
           </span>
           <h2 className="font-display text-2xl md:text-3xl font-bold text-slate-900">
-            Trusted Brands We Work With
+            Powered by Leading Brands
           </h2>
         </div>
 

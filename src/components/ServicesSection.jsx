@@ -129,7 +129,7 @@ export default function ServicesSection() {
 
         {/* Section header */}
         <div className="text-center mb-14">
-          <span className="inline-block text-xs font-semibold uppercase tracking-widest text-blue-600 bg-blue-50 px-4 py-1.5 rounded-full mb-4">
+          <span className="inline-block text-xl font-semibold uppercase tracking-widest text-blue-600 bg-blue-50 px-4 py-1.5 rounded-full mb-4">
             What We Offer
           </span>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-slate-900 mb-4">
@@ -147,7 +147,7 @@ export default function ServicesSection() {
         </div>
 
         {/* Cards grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
           {services.map((s, i) => (
             <div
               key={i}
@@ -167,10 +167,10 @@ export default function ServicesSection() {
                 <span className={`text-xs font-semibold px-2.5 py-1 rounded-full w-fit mb-3 ${tagColors[s.tag]}`}>
                   {s.tag}
                 </span>
-                <h3 className="font-display text-base font-semibold text-slate-900 mb-2 leading-snug">
+                <h3 className="font-display text-xl font-semibold text-slate-900 mb-2 leading-snug">
                   {s.title}
                 </h3>
-                <p className="text-slate-500 text-sm leading-relaxed flex-1">
+                <p className="text-slate-500 text-lg leading-relaxed flex-1">
                   {s.desc}
                 </p>
                 {/* <button className="mt-4 text-sm font-medium text-blue-600 hover:text-blue-700 flex items-center gap-1 transition-colors">
@@ -183,12 +183,12 @@ export default function ServicesSection() {
 
         {/* Bottom CTA */}
         <div className="mt-14 text-center">
-          <p className="text-slate-500 text-sm mb-4">
+          <p className="text-slate-500 text-lg mb-4">
             Need something not listed above? We provide customised solutions too.
           </p>
           <a
             href="mailto:connect@mazetronix.com"
-            className="inline-block text-sm font-semibold text-white px-6 py-3 rounded-xl shadow-md"
+            className="inline-block text-lg font-semibold text-white px-6 py-3 rounded-xl shadow-md"
             style={{ background: "linear-gradient(135deg, #2563EB, #1D4ED8)" }}
           >
             Request a Custom Solution →
