@@ -1,3 +1,6 @@
+import logoWhite from "../assets/logo-white.png";
+
+
 const currentYear = new Date().getFullYear();
 
 const services = [
@@ -51,20 +54,13 @@ export default function Footer() {
 
         {/* Brand col */}
         <div className="lg:col-span-1">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="w-9 h-9 rounded-lg bg-blue-600 flex items-center justify-center shadow">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path d="M10 2 L14 4 L14 9 Q14 14 10 17 Q6 14 6 9 L6 4 Z" fill="white" opacity="0.9"/>
-              </svg>
+         <div className="flex items-center gap-3 -mt-4 -ml-5 md:-ml-10 md:-mt-4">
+            <img src={logoWhite} alt="Mazetronix Logo" className="w-16 h-16 md:w-24 md:h-24 object-contain flex-shrink-0" />
+            <div className="md:-ml-6 -ml-4">
+            <div className="font-display font-bold text-white text-xl md:text-2xl leading-tight tracking-tight">MAZETRONIX</div>
+            <div className="text-base md:text-xl text-slate-400 leading-none tracking-widest uppercase">Solutions</div>
             </div>
-            <div>
-              <div className="font-display font-bold text-white text-2xl leading-tight tracking-tight">MAZETRONIX</div>
-              <div className="text-lg text-slate-400 leading-none tracking-widest uppercase">Solutions</div>
-            </div>
-          </div>
-          <p className="text-lg text-slate-400 leading-relaxed mb-5">
-            Delhi's trusted partner for security, networking, and smart building solutions since day one.
-          </p>
+        </div>
           {/* Social icons */}
           <div className="flex gap-3">
             {[
