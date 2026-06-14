@@ -173,9 +173,9 @@ export default function Footer() {
         <p className="text-xs text-slate-500 text-center sm:text-left">
           © {currentYear} <span className="text-slate-400 font-medium">MAZETRONIX Solutions</span>. All rights reserved.
         </p>
-        <p className="text-xs text-slate-600">
+        {/* <p className="text-xs text-slate-600">
           Designed &amp; Built with ❤️ in New Delhi
-        </p>
+        </p> */}
       </div>
     </footer>
   );
